@@ -1,0 +1,58 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  color: #1f3251;
+  color: hsl(218, 44%, 22%);
+  background-color: #d6e2f0;
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1f3251;
+  color: hsl(218, 44%, 22%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.qr-code-div {
+  display: grid;
+  width: 450px;
+  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: 30px auto;
+}
+
+.qr-code-img {
+  width: 410px;
+  border-radius: 15px;
+  margin: 20px 20px 0px;
+}
+
+.qr-code-text {
+  text-align: center;
+}
+
+.qr-h1 {
+  font-size: 2rem;
+  margin: 30px;
+}
+
+.qr-p {
+  font-size: 1.4rem;
+  margin: auto 30px 50px;
+}
+
+.attribution {
+  text-align: center;
+  color: #7b879d;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution-text {
+  font-size: .8rem;
+}
